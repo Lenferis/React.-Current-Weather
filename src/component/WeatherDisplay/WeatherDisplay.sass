@@ -1,0 +1,40 @@
+.weather-display
+  background-color: #89CFF0
+  border-radius: 12px
+  padding: 20px
+  flex: 1
+  box-sizing: border-box
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
+
+  h2
+    margin-top: 0
+    margin-bottom: 24px
+    font-family: sans-serif
+    font-size: 24px
+    color: #000
+
+  .weather-data
+    display: flex
+    flex-direction: column
+    gap: 12px
+    font-family: sans-serif
+    font-size: 20px
+    color: #000
+
+    .data-row
+      display: flex
+      align-items: center
+      justify-content: center
+      gap: 10px
+
+      .wind-arrow
+        display: inline-flex
+        transition: transform 0.3s ease
+
+      .wind-label
+        font-size: 16px
+        color: #333
