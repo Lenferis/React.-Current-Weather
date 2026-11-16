@@ -1,4 +1,3 @@
-import React from 'react'
 import WeatherWidget from './component/WeatherWidget/'
 import './App.sass' 
 

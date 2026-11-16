@@ -1,5 +1,3 @@
-import { FaArrowUp } from 'react-icons/fa';
-
 export const getWindDirection = (degrees) => {
   if (degrees >= 315 || degrees < 45) {
     return { label: 'Пн', iconRotation: 180 };
